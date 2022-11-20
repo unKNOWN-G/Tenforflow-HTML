@@ -1,0 +1,105 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* General Initializations */
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  margin: 10px;
+}
+
+a:visited {
+  color: white;
+}
+
+/* Header Initialization */
+
+header {
+  display: flex;
+  align-items: center;
+
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+header > div {
+  width: 90%;
+  margin: auto;
+}
+
+header > div > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > div > nav > div {
+  display: flex;
+  align-items: center;
+}
+
+header > div > nav > div > img {
+  padding: 0 10px;
+}
+header > div > nav > div > p {
+  padding-left: 10px;
+  border-left: 1px solid white;
+}
+
+header > div > nav > ul > li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0 5px;
+}
+
+/* Main */
+#centerContents {
+  margin-top: 20px;
+  text-align: center;
+}
+
+main > article > h2 {
+}
+/*   Footer      */
+
+#footerContainer {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+
+  font-size: 0.8em;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: row;
+}
+
+footer > div > article {
+  padding: 20px;
+  margin-left: 10px;
+}
+
+footer > address {
+  padding: 20px 0;
+  margin-left: 10px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
